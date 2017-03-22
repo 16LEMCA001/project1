@@ -1,0 +1,9 @@
+echo "enter value for x : "
+read x
+echo "enter value for y : "
+read y
+echo "before swap , x = $x and y = $y"
+z=$x
+x=$y
+y=$z
+echo "after swap , x = $x and y = $y"

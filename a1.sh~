@@ -1,0 +1,8 @@
+echo "enter two number"
+read a
+read b
+echo "adition of $a and $b is` expr $a + $b `"
+echo "substration of $a and $b is` expr $a - $b `"
+echo "multiplication of $a and $b is` expr $a * $b `"
+echo "division of $a and $b is` expr $a / $b `"
+echo "reminder of $a and $b is` expr $a % $b `"
